@@ -1,0 +1,19 @@
+.subhead-background {
+    background-color: #8AD7D2;
+    margin-top: -50px;
+    position: relative;
+    width: 100%;
+    
+    top: 50px;
+    
+    height: 100px;
+  }
+  .subhead-font {
+    font-size: 25px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin: 0;
+      padding: 35px;
+      color: 	#303030;
+  }
+  

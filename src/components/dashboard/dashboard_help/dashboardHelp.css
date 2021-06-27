@@ -1,0 +1,160 @@
+.main-help {
+    position: relative;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+    
+    top: 31.3rem;
+    left: 36rem;
+    
+    height: auto;
+}
+
+#main-right-top {
+    position: relative;
+
+    top: -725px;
+    left: 620px;
+
+    width: 298px;
+    height: 240px;
+
+    background-color: white;
+
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+}
+
+#main-without-presciption-button {
+
+    cursor: pointer;
+
+    border-style: none;
+    background: none;
+    outline: none;
+}
+
+#main-without-presciption-image {
+    position: relative;
+
+    top: -2px;
+    left: -8px;
+    
+    width: 300px;
+}
+
+#main-right-top-text {
+    position: relative;
+
+    top: 6px;
+    left: 0px;
+
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+#main-right-bottom {
+    position: relative;
+
+    top: -705px;
+    left: 619px;
+
+    width: 299px;
+    height: 240px;
+
+    background-color: white;
+
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+}
+
+#main-medbox-button {
+    cursor: pointer;
+
+    border-style: none;
+    background: none;
+    outline: none;
+}
+
+#main-medbox-image {
+    position: relative;
+
+    top: -2px;
+    left: -9px;
+    
+    width: 302px;
+}
+
+#main-right-bottom-text {
+    position: relative;
+
+    top: 6px;
+    left: 0px;
+
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+/* handle screen width smaller than 1130px  */
+@media screen and (max-width: 1130px) {
+    .main-help {
+        position: relative;
+    
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    
+        
+        top: 31.3rem;
+        left: 21rem;
+        
+        height: auto;
+    }
+}
+
+/* handle screen width between 1136px and 1238px  */
+@media screen and (min-width: 1130px) and (max-width: 1238px) {
+    .main-help {
+        position: relative;
+    
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    
+        
+        top: 31.3rem;
+        left: 25.5rem;
+        
+        height: auto;
+    }
+}
+
+/* handle screen width between 1238px and 1389px  */
+@media screen and (min-width: 1238px) and (max-width: 1389px) {
+    .main-help {
+        position: relative;
+    
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    
+        
+        top: 31.3rem;
+        left: 29rem;
+        
+        height: auto;
+    }
+}
+
+/* handle screen width between 1389px and 1500px  */
+@media screen and (min-width: 1389px) and (max-width: 1500px) {
+    .main-help {
+        position: relative;
+    
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    
+        
+        top: 31.3rem;
+        left: 33.5rem;
+        
+        height: auto;
+    }
+}

@@ -1,0 +1,405 @@
+#main-upload {
+    position: relative;
+    background-color: white;
+
+    top: 1rem;
+    left: 1rem;
+
+    width: 1140px;
+    height: 240px;
+
+    border-radius: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#main-upload-text-top {
+    position: relative;
+    color: #00b7bd;
+
+    top: 85px;
+    left: 0px;
+
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#main-upload-text-bottom {
+    position: relative;
+    color: #00b7bd;
+
+    top: 90px;
+    left: 0px;
+
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main-upload-images {
+    display: grid;
+    grid-template-columns: 4fr 3fr 3fr 3fr;
+}
+
+#main-upload-button {
+    position: relative;
+
+    top: 0px;
+    left: 0px;
+
+    width: 120px;
+
+    cursor: pointer;
+
+    
+    border-style: none;
+    background: none;
+    outline: none;
+
+}
+
+#main-upload-logo {
+    position: relative;
+
+    top: 45px;
+    left: -50px;
+
+    width: 120px;
+    
+
+    border-style: solid;
+    border-color: #e7e5e5;
+    border-radius: 15px;
+
+    padding: 5px;
+}
+
+#main-upload-step1 {
+    position: relative;
+
+    top: 60px;
+    left: 0px;
+
+    width: 115px;
+
+}
+
+#main-upload-step1-text {
+    position: relative;
+
+    top: 20px;
+    left: 0px;
+
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+#main-upload-step2 {
+    position: relative;
+
+    top: 60px;
+    left: 0px;
+
+    width: 115px;
+}
+
+#main-upload-step2-text {
+    position: relative;
+
+    top: 20px;
+    left: 0px;
+
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+#main-upload-step3 {
+    position: relative;
+
+    top: 60px;
+    left: 0px;
+
+    width: 115px;
+}
+
+#main-upload-step3-text-top {
+    position: relative;
+
+    top: 18px;
+    left: 0px;
+
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+#main-upload-step3-text-bottom {
+    position: relative;
+
+    top: 18px;
+    left: 0px;
+
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+/* handle screen width smaller than 1130px  */
+@media screen and (max-width: 1130px) {
+    #main-upload {
+        position: relative;
+        background-color: white;
+    
+        top: 1rem;
+        left: 18rem;
+    
+        width: 650px;
+        height: 240px;
+    
+        border-radius: 10px;
+    
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    #main-upload-text-top {
+        position: relative;
+        color: #00b7bd;
+    
+        top: 85px;
+        left: -20px;
+    
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    
+    #main-upload-text-bottom {
+        position: relative;
+        color: #00b7bd;
+    
+        top: 90px;
+        left: -20px;
+    
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #main-upload-images {
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr 2fr;
+    }
+    
+    #main-upload-button {
+        position: relative;
+    
+        top: 0px;
+        left: 0px;
+    
+        cursor: pointer;
+    
+        border-style: none;
+        background: none;
+        outline: none;
+    
+    }
+    
+    #main-upload-logo {
+        position: relative;
+    
+        top: 45px;
+        left: -50px;
+    
+        width: 100px;
+    
+        border-style: solid;
+        border-color: #e7e5e5;
+        border-radius: 15px;
+    
+        padding: 5px;
+    }
+    
+    #main-upload-step1 {
+        position: relative;
+    
+        top: 60px;
+        left: 0px;
+    
+        width: 90px;
+    
+    }
+    
+    #main-upload-step1-text {
+        position: relative;
+    
+        top: 20px;
+        left: 0px;
+    
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+    }
+    
+    #main-upload-step2 {
+        position: relative;
+    
+        top: 60px;
+        left: 0px;
+    
+        width: 90px;
+    }
+    
+    #main-upload-step2-text {
+        position: relative;
+    
+        top: 20px;
+        left: 0px;
+    
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+    }
+    
+    #main-upload-step3 {
+        position: relative;
+    
+        top: 60px;
+        left: 0px;
+    
+        width: 90px;
+    }
+    
+    #main-upload-step3-text-top {
+        position: relative;
+    
+        top: 18px;
+        left: 0px;
+    
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+    }
+    
+    #main-upload-step3-text-bottom {
+        position: relative;
+    
+        top: 18px;
+        left: 0px;
+    
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+    }
+}
+
+/* handle screen width between 1136px and 1238px  */
+@media screen and (min-width: 1130px) and (max-width: 1238px) {
+    #main-upload {
+        position: relative;
+        background-color: white;
+    
+        top: 1rem;
+        left: 13.5rem;
+    
+        width: 800px;
+        height: 240px;
+    
+        border-radius: 10px;
+    
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    #main-upload-text-top {
+        position: relative;
+        color: #00b7bd;
+    
+        top: 85px;
+        left: -20px;
+    
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    
+    #main-upload-text-bottom {
+        position: relative;
+        color: #00b7bd;
+    
+        top: 90px;
+        left: -20px;
+    
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #main-upload-images {
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr 2fr;
+    }
+}
+
+/* handle screen width between 1238px and 1389px  */
+@media screen and (min-width: 1238px) and (max-width: 1389px) {
+    #main-upload {
+        position: relative;
+        background-color: white;
+    
+        top: 1rem;
+        left: 10rem;
+    
+        width: 900px;
+        height: 240px;
+    
+        border-radius: 10px;
+    
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    #main-upload-text-top {
+        position: relative;
+        color: #00b7bd;
+    
+        top: 85px;
+        left: 0px;
+    
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    
+    #main-upload-text-bottom {
+        position: relative;
+        color: #00b7bd;
+    
+        top: 90px;
+        left: 0px;
+    
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+}
+
+/* handle screen width between 1389px and 1500px  */
+@media screen and (min-width: 1389px) and (max-width: 1500px) {
+    #main-upload {
+        position: relative;
+        background-color: white;
+    
+        top: 1rem;
+        left: 5rem;
+    
+        width: 1050px;
+        height: 240px;
+    
+        border-radius: 10px;
+    
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+}

@@ -1,0 +1,160 @@
+.medbox-body-style {
+    position: relative;
+}
+
+.medbox-banner-style {
+    position: relative;
+    background-color: #00b7bd;
+    text-align: center;
+    height: 50px;
+}
+
+#medbox-banner {
+    position: relative;
+
+    top: 10px;
+
+    color: white;
+    font-size: 28px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}
+
+.medbox-bottom-style {
+    position: relative;
+
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+}
+
+#medbox-box-logo {
+    position: relative;
+
+    width: 400px;
+}
+
+.medbox-description-style {
+    position: relative;
+
+    top: 50px;
+    left: 100px;
+
+    width: 548px;
+    display: inline-block;
+
+    border-style: solid;
+    border-width: thin;
+    border-color: #00b7bd;
+    border-radius: 10px;
+    padding: 10px;
+
+
+    /* word-break: break-all */
+}
+
+.medbox-description-thick {
+    position: relative;
+
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}
+
+.medbox-description-thin {
+    position: relative;
+
+    font-size: 13px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+}
+
+#medbox-select-button {
+    position: relative;
+
+    width: 400px;
+    height: 80px;
+
+    top: 80px;
+    left: 185px;
+
+    border-style: solid;
+    border-width: thin;
+    border-color: red; /* #950f20 */
+    border-radius: 10px;
+    outline: none;
+
+    cursor: pointer;
+
+    background: none;
+    transition: 0.3s;
+}
+
+#medbox-select-button:hover {
+    background-color: #E1DFDF;  
+}
+
+#medbox-select-button-text {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+
+    top: -10px;
+    left: 30px;
+    
+
+    color: red; /* #950f20 */
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}
+
+#medbox-shop-logo {
+    position: relative;
+    
+    top: 10px;
+    left: 50px;
+    width: 100px;
+}
+
+@media screen and (max-width: 1066px) {
+    .medbox-description-style {
+        position: relative;
+    
+        top: 50px;
+        left: 0px;
+    
+        width: 548px;
+        display: inline-block;
+    
+        border-style: solid;
+        border-width: thin;
+        border-color: #00b7bd;
+        border-radius: 10px;
+        padding: 10px;
+    
+    
+        /* word-break: break-all */
+    }
+
+    #medbox-select-button {
+        position: relative;
+    
+        width: 400px;
+        height: 80px;
+    
+        top: 80px;
+        left: 85px;
+    
+        border-style: solid;
+        border-width: thin;
+        border-color: red; /* #950f20 */
+        border-radius: 10px;
+        outline: none;
+    
+        cursor: pointer;
+    
+        background: none;
+        transition: 0.3s;
+    }
+} 

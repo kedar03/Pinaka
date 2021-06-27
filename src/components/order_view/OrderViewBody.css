@@ -1,0 +1,169 @@
+.order_view_subheader_style {
+    position: relative;
+    text-align: center;
+    background-color: #bff4e2;
+
+    height: 40px;
+}
+
+.order_view_subheader_text {
+    position: relative;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+
+    top: 10px;
+
+    color: #457a8b;
+
+}
+
+.order_view_presc_style {
+    position: relative;
+    text-align: center;
+    
+    height: 260px;
+    top: 30px;
+}
+
+.order_view_presc {
+    position: relative;
+
+    width: 200px;
+}
+
+.order_view_Info_style {
+    position: relative;
+
+    border-style: solid;
+    border-width: thin;
+    border-radius: 10px;
+    border-color: #00b7bd;
+
+    margin: 20px auto;
+
+    width: 470px;
+
+    text-indent: 10px;
+}
+
+#order_view_user_icon {
+    position: relative;
+
+    
+    width: 35px;
+}
+
+#order_view_customer_name {
+    position: relative;
+
+    top: -15px;
+    left: 5px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#order_view_date_icon {
+    position: relative;
+
+    top: -10px;
+    left: 6px;
+
+    width: 25px;
+}
+
+#order_view_order_date {
+    position: relative;
+
+    top: -15px;
+    left: 16px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#order_view_time_icon {
+    position: relative;
+
+    top: -8px;
+    left: 8px;
+
+    width: 20px;
+}
+
+#order_view_order_time {
+    position: relative;
+
+    top: -13px;
+    left: 20px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* ---------------------------- */
+
+#order_view_pharm_icon {
+    position: relative;
+
+    top: 9px;
+    left: 5px;
+
+    width: 25px;
+}
+
+#order_view_pharm_name {
+    position: relative;
+
+    top: 0px;
+    left: 15px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#order_view_location_icon {
+    position: relative;
+
+    top: 5px;
+    left: 5px;
+
+    width: 25px;
+}
+
+#order_view_pharm_addr {
+    position: relative;
+
+    top: -6px;
+    left: 15px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#order_view_phone_icon {
+    position: relative;
+
+    top: -3px;
+    left: 2px;
+
+    width: 30px;
+}
+
+#order_view_pharm_phone {
+    position: relative;
+
+    top: -12px;
+    left: 10px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}

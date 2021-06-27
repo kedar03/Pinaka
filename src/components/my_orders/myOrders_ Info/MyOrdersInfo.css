@@ -1,0 +1,123 @@
+.my_orders_info_style {
+    position: relative;
+    transition: 0.3s;
+    cursor: pointer;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.my_orders_info_style:hover {
+    background-color: #E1DFDF;
+}
+
+.my_orders_Processing {
+    position: relative;
+    background-color: #ecb71b;
+    color: white;
+
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    
+    border-radius: 5px;
+    
+    top: 35px;
+    left: 140px;
+    
+}
+
+.my_orders_Accepted {
+    position: relative;
+    background-color: #4dbe7c;
+    color: white;
+
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    
+    border-radius: 5px;
+
+    top: 35px;
+    left: 140px;
+}
+
+.my_orders_Declined {
+    position: relative;
+    background-color: #f17140;
+    color: white;
+
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    
+    border-radius: 5px;
+
+    top: 35px;
+    left: 140px;
+}
+
+.my_orders_Delivered {
+    position: relative;
+    background-color: #3aa9c4;
+    color: white;
+
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    
+    border-radius: 5px;
+
+    top: 35px;
+    left: 140px;
+}
+
+.my_orders_status_text {
+    position: relative;
+    top: 5px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.my_orders_orderDetails_style {
+    position: relative;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    
+    text-align: left;
+    left: 965px;
+}
+
+#my_orders_orderDetails_no {
+    position: relative;
+    
+}
+
+#my_orders_orderDetails_date {
+    position: relative;
+
+}
+
+#my_orders_orderDetails_pharm {
+    position: relative;
+
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 1400px) {
+    .my_orders_orderDetails_style {
+        position: relative;
+    
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        
+        text-align: left;
+        left: 550px;
+    }
+}

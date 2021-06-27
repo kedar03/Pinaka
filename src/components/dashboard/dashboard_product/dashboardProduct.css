@@ -1,0 +1,321 @@
+.main-product {
+    position: relative;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    
+    top: 20rem;
+    left: 35rem;
+    
+
+    width: 65rem;
+    height: 0px;
+}
+
+#main-product1-button {
+    position: relative;
+
+    top: -270px;
+    left: -500px;
+
+    border-style: none;
+    border-radius: 50%;
+    background: none;
+    outline: none;
+
+    transition: all 0.3s ease;
+
+    cursor: pointer;
+}
+
+#main-product1-text {
+    position: relative;
+
+    top: -270px;
+    left: -500px;
+
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+#main-product2-button {
+    position: relative;
+
+    top: -265px;
+    left: -500px;
+
+    border-style: none;
+    border-radius: 50%;
+    background: none;
+    outline: none;
+
+    transition: all 0.3s ease;
+
+    cursor: pointer;
+}
+
+#main-product2-text {
+    position: relative;
+
+    top: -265px;
+    left: -498px;
+
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+#main-product3-button {
+    position: relative;
+
+    top: -265px;
+    left: -500px;
+
+    border-style: none;
+    border-radius: 50%;
+    background: none;
+    outline: none;
+
+    transition: all 0.3s ease;
+
+    cursor: pointer;
+}
+
+#main-product3-text {
+    position: relative;
+
+    top: -265px;
+    left: -500px;
+
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+#main-product4-button {
+    position: relative;
+
+    top: -273px;
+    left: -500px;
+
+    border-style: none;
+    border-radius: 50%;
+    background: none;
+    outline: none;
+
+    transition: all 0.3s ease;
+
+    cursor: pointer;
+}
+
+#main-product4-text {
+    position: relative;
+
+    top: -275px;
+    left: -500px;
+
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+/* handle screen width smaller than 1130px  */
+@media screen and (max-width: 1130px) {
+    .main-product {
+        position: relative;
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+        
+        top: 20rem;
+        left: 52rem;
+        
+    
+        width: 35vw;
+        height: 0px;
+    
+    }
+    
+    #main-product1-button {
+        position: relative;
+    
+        top: -270px;
+        left: -500px;
+    
+        border-style: none;
+        border-radius: 50%;
+        background: none;
+        outline: none;
+    
+        transition: all 0.3s ease;
+    
+        cursor: pointer;
+    }
+
+    #main-product1-logo {
+        width: 126px;
+    }
+    
+    #main-product1-text {
+        position: relative;
+    
+        top: -270px;
+        left: -500px;
+    
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    
+    #main-product2-button {
+        position: relative;
+    
+        top: -265px;
+        left: -500px;
+    
+        border-style: none;
+        border-radius: 50%;
+        background: none;
+        outline: none;
+    
+        transition: all 0.3s ease;
+    
+        cursor: pointer;
+    }
+
+    #main-product2-logo {
+        width: 130px;
+    }
+    
+    #main-product2-text {
+        position: relative;
+    
+        top: -265px;
+        left: -498px;
+    
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    
+    #main-product3-button {
+        position: relative;
+    
+        top: -265px;
+        left: -500px;
+    
+        border-style: none;
+        border-radius: 50%;
+        background: none;
+        outline: none;
+    
+        transition: all 0.3s ease;
+    
+        cursor: pointer;
+    }
+
+    #main-product3-logo {
+        width: 126px;
+    }
+    
+    #main-product3-text {
+        position: relative;
+    
+        top: -265px;
+        left: -500px;
+    
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    
+    #main-product4-button {
+        position: relative;
+    
+        top: -273px;
+        left: -500px;
+    
+        border-style: none;
+        border-radius: 50%;
+        background: none;
+        outline: none;
+    
+        transition: all 0.3s ease;
+    
+        cursor: pointer;
+    }
+
+    #main-product4-logo {
+        width: 125px;
+    }
+    
+    #main-product4-text {
+        position: relative;
+    
+        top: -275px;
+        left: -500px;
+    
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+}
+
+/* handle screen width between 1136px and 1238px  */
+@media screen and (min-width: 1130px) and (max-width: 1238px) {
+    .main-product {
+        position: relative;
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+        
+        top: 20rem;
+        left: 46rem;
+        
+    
+        width: 46rem;
+        height: 0px;
+    
+    }
+}
+
+/* handle screen width between 1238px and 1389px  */
+@media screen and (min-width: 1238px) and (max-width: 1389px) {
+    .main-product {
+        position: relative;
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+        
+        top: 20rem;
+        left: 44rem;
+        
+    
+        width: 50rem;
+        height: 0px;
+    
+    }
+}
+
+/* handle screen width between 1389px and 1500px  */
+@media screen and (min-width: 1389px) and (max-width: 1500px) {
+    .main-product {
+        position: relative;
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+        
+        top: 20rem;
+        left: 39rem;
+        
+    
+        width: 60rem;
+        height: 0px;
+    }
+}

@@ -1,0 +1,41 @@
+.medbox-process-style {
+    position: relative;
+    text-align: center;
+    margin: 30px auto;
+
+    font-size: 13px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}
+
+#medbox-process-logo {
+    position: relative;
+    width: 550px;
+}
+
+#medbox-process-text-left {
+    position: relative;
+    
+    width: 100px;
+    display: inline-block;
+
+    left: -80px;
+}
+
+#medbox-process-text-mid {
+    position: relative;
+    
+    width: 120px;
+    display: inline-block;
+
+    left: -20px;
+}
+
+#medbox-process-text-right {
+    position: relative;
+    
+    width: 80px;
+    display: inline-block;
+
+    left: 50px;
+}

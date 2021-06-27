@@ -1,0 +1,393 @@
+.ps-style {
+    text-align: left;
+    position: relative;
+    height: 100%;
+    width: 100vw;
+
+    overflow: hidden;
+}
+
+/* -----AutoComplete------ */
+
+.ps-pincode {
+    position: relative;
+
+    
+    text-align: center;
+
+    margin: 0 auto;
+    
+    top: 50px;
+    left: 0px;
+    
+}
+
+#ps-text-label {
+    position: absolute;
+
+    top: -30px;
+    left: 5vw;
+    
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+
+}
+
+.ps-autocomplete {
+    width: 90%;
+    height: 40px;
+    text-indent: 40px;
+    margin-top: 2px;
+    border-radius: 5px;
+    border-style: none;
+    outline: none;
+    /*
+    width: '90%',
+    height: '40px',
+    textIndent: "40px",
+    marginTop: '2px',
+    borderRadius: '5px',
+    borderStyle: 'none',
+    outline: 'none',
+    */
+}
+
+.ps-autocomplete-list {
+    position: relative;
+    text-align: left;
+
+    text-indent: 40px;
+    width: 90%;
+    margin: 0 auto;
+
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.ps-autocomplete-button {
+    position: absolute;
+    float: right;
+    right: 5%;
+
+    top: 10px;
+
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#ps-autocomplete-search-icon {
+    position: relative;
+}
+
+/* ------------------ */
+
+/* ----Location Detected------ */
+
+.ps-location-style {
+    position: relative;
+
+    top: 40px;
+    left: 5%;
+
+    height: 100px;
+}
+
+.ps-location-button {
+    border-style: none;
+    background: none;
+    outline: none;
+
+    cursor: pointer;
+
+    position: relative;
+    top: 20px;
+}
+
+.ps-location-label-open {
+    position: relative;
+
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.ps-location-label-closed {
+    position: relative;
+
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+
+    top: 5px;
+}
+
+
+
+.ps-location-icon {
+    
+}
+
+/* ------------------ */
+
+
+.ps-info {
+    position: relative;
+
+    top: 0px;
+    left: 0px;
+
+    height: 100px;
+    width: 90%;
+    /*
+    width: 1430px;
+    */
+
+    margin: 20px auto;
+    margin-bottom: 20px;
+    text-indent: 40px;
+
+    border-radius: 5px;
+
+    background-color: white;
+
+
+
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 1fr;
+    
+}
+
+.ps-pharmacyName {
+    position: relative;
+
+    
+    top: 30px;
+    /*
+    left: 5%;
+    */
+
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+
+}
+
+.ps-pharmacyName-context {
+    position: relative;
+    top: -15px;
+    left: 5px;
+}
+
+.ps-pharmacyAddr {
+    position: relative;
+    
+    top: 30px;
+    /*
+    left: 30%;
+    */
+}
+
+.ps-pharmacyAddr-context{
+    position: relative;
+    top: -15px;
+    left: 5px;
+
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+}
+
+.ps-pharmacyDistance {
+    position: relative;
+
+    
+    top: 30px;
+    /*
+    left: 70%;
+    */
+}
+
+.ps-pharmacyDistance-context {
+    position: relative;
+
+    
+    top: -35px;
+    left: 50px;
+
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+}
+
+.ps-selectButton {
+    position: relative;
+
+    
+    top: 35px;
+    left: -20px;
+    
+}
+
+.ps-selectButton-style {
+    width: 120px;
+    height: 30px;
+
+    border-radius: 5px;
+    border-style: none;
+    outline: none;
+
+    
+    background-color: #00b7bd;
+    color: white;
+
+    font-weight: 500;
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+@media screen and (max-width: 978px) {
+    .ps-info {
+        height: 250px !important;
+        grid-template-columns: none !important;
+    }
+
+    .ps-pharmacyName {
+        top: 20px !important;
+    }
+
+    .ps-pharmacyAddr {
+        top: 20px !important;
+    }
+
+    .ps-pharmacyDistance {
+        top: 20px !important;
+    }
+
+    .ps-selectButton {
+        top: 0px !important;
+        left: 5px !important;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .ps-info {
+        position: relative;
+    
+        top: 0px;
+        left: 0px;
+    
+        height: 100px;
+        width: 90%;
+        /*
+        width: 1430px;
+        */
+    
+        margin: 20px auto;
+        margin-bottom: 20px;
+        text-indent: 40px;
+    
+        border-radius: 5px;
+    
+        background-color: white;
+    
+    
+    
+        display: grid;
+        grid-template-columns: 4fr 5fr 3fr 1fr;
+        
+    }
+    
+    .ps-pharmacyName {
+        position: relative;
+    
+        
+        top: 30px;
+        /*
+        left: 5%;
+        */
+    
+        font-size: 10px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+    
+    }
+    
+    .ps-pharmacyName-context {
+        position: relative;
+        top: -15px;
+        left: 5px;
+    }
+    
+    .ps-pharmacyAddr {
+        position: relative;
+        
+        top: 30px;
+        /*
+        left: 30%;
+        */
+    }
+    
+    .ps-pharmacyAddr-context{
+        position: relative;
+        top: -15px;
+        left: 5px;
+    
+        font-size: 10px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 500;
+    }
+    
+    .ps-pharmacyDistance {
+        position: relative;
+    
+        
+        top: 30px;
+        /*
+        left: 70%;
+        */
+    }
+    
+    .ps-pharmacyDistance-context {
+        position: relative;
+    
+        
+        top: -35px;
+        left: 50px;
+    
+        font-size: 10px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 500;
+    }
+    
+    .ps-selectButton {
+        position: relative;
+    
+        
+        top: 35px;
+        left: -20px;
+        
+    }
+    
+    .ps-selectButton-style {
+        width: 120px;
+        height: 30px;
+    
+        border-radius: 5px;
+        border-style: none;
+        outline: none;
+    
+        
+        background-color: #00b7bd;
+        color: white;
+    
+        font-weight: 500;
+        font-size: 12px;
+    
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,93 @@
+.confirmInfo-style {
+    position: relative;
+}
+
+.confirmInfo-logo-style {
+    position: relative;
+    text-align: center;
+
+    margin: 0 auto;
+}
+
+.confirmInfo-subheader {
+    position: relative;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+
+    top: 20px;
+
+}
+
+/* presc */
+.confirmInfo-presc {
+    position: relative;
+
+    top: 30px;
+
+    border-style: solid;
+    border-radius: 50%;
+    border-color:  #00b7bd;
+    border-width: thick;
+
+    width: 225Px;
+    height: 225px;
+}
+
+.confirmInfo-logo {
+    position: relative;
+
+    top: 30px;
+}
+
+/* ---------------------- */
+
+.confirmInfo-contact-style {
+    position: relative;
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+
+    border-radius: 10px;
+
+    top: 30px;
+}
+
+.confirmInfo_pharmacy_icon {
+    position: relative;
+
+    top: 5px;
+    left: 5px;
+    width: 35px;
+}
+
+.confirmInfo-pharmacyName {
+    position: relative;
+
+    top: -9px;
+    left: 15px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.confirmInfo_marker_icon {
+    position: relative;
+
+    top: 3px;
+    left: 5px;
+    width: 35px;
+}
+
+.confirmInfo-pharmacyAddr {
+    position: relative;
+
+    top: -15px;
+    left: 15px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}

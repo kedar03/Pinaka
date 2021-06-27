@@ -1,0 +1,28 @@
+#up-header {
+    position: relative;
+
+    background-color: #00b7bd;
+    width: 100%;
+    height: 100px;
+
+    top: 0px;
+    left: 0px;
+}
+
+#up-prepage {
+    position: absolute;
+
+    top: 25px;
+    left: 40px;
+
+    font-size: 35px;
+    
+    color: white;
+
+    border-style: none;
+    background: none;
+    outline: none;
+
+    cursor: pointer;
+
+}

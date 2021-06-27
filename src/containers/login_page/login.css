@@ -1,0 +1,507 @@
+body {
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    margin: 0;
+    padding: 0;
+}
+
+.login-style {
+    text-align: center;
+    position: relative;
+
+    overflow: hidden;
+}
+
+/* LoginLogo */
+
+#login-logo1 {
+    position: relative;
+    top: -100px;
+    left: -285px;
+
+}
+
+#login-logo2 {
+    position: relative;
+    top: -240px;
+    left: -150px;
+    
+}
+
+#login-logo3 {
+    position: relative;
+    top: -140px;
+    left: 160px;
+
+}
+
+/* ---------------------------------- */
+
+.loginPage-link {
+    position: relative;
+
+    top: -250px;
+}
+
+
+#login-text {
+    left: 400px;
+
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #00b7bd;
+}
+
+#login-dotted-line {
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #a5a6aa;
+}
+
+/* -------------------------- */
+
+.login-form-style {
+    position: relative;
+
+    top: -250px;
+    left: 0px;
+}
+
+form p > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#signup-link {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+    color: white;
+    text-decoration: none;
+}
+
+.login-textBox {
+    position: relative;
+
+    top: 0px;
+
+    width: 365px;
+    height: 32px; /* control the height between text boxes */
+
+    border-radius: 20px;
+    border: none;
+    text-indent: 65px;
+    /*
+    padding-left: 65px;
+    */
+    
+    
+
+    outline: none; /* let the outline border disappear when typing */
+}
+
+input::placeholder {
+    color: #a5a6aa;
+    font-size: 16px;
+}
+
+#login-user-icon {
+    position: relative;
+    /*
+    top: -7em;
+    left: -7.6em;
+    */
+    top: -122px;
+    left: -113px;
+    padding: 9px 8px;
+    
+    color: #00b7bd;
+}
+
+#login-pw-icon {
+    position: relative;
+    /*
+    top: -4.2em;
+    left: -11em;
+    */
+    top: -78px;
+    left: -182px;
+    padding: 9px 8px;
+    
+    color: #00b7bd;
+}
+
+#login-control {
+    position: relative;
+    top: -85px;
+}
+
+#login-submit-button {
+    width: 370px;
+    height: 35px;
+
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+    text-align: center;
+    color: white;
+    background-color: #00b7bd; 
+
+    border-radius: 20px;
+    border: 0;
+    
+    cursor: pointer;
+
+    outline: none !important; /* is it neccessary to use important? */
+}
+
+#forgot-pwd-text {
+    font-size: 15px;
+    
+    color: black;
+    text-decoration: underline;
+    position: relative;
+    
+    top: 7px;
+}
+
+.firebase-login {
+    position: relative;
+    top: -300px;
+}
+
+.google-login {
+    position: relative;
+}
+
+#google-login-button {
+    width: 370px;
+    height: 35px;
+
+    background-color: #db3236;
+
+    border-radius: 20px;
+    border: 0;
+    
+    cursor: pointer;
+
+    outline: none;
+}
+
+#google-login-text {
+    position: relative;
+
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+    color: white;
+
+    left: 20px;
+}
+
+#google-login-icon {
+    position: relative;
+    
+    top: -30px;
+    left: -63px;
+
+    color: white;
+    font-size: 22px;
+}
+
+.facebook-login {
+    position: relative;
+
+    top: -25px;
+}
+
+#facebook-login-button {
+    position: relative;
+    top: 20px;
+
+    width: 370px;
+    height: 35px;
+
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+    text-align: center;
+    color: white;
+
+    background-color: #4267B2;
+
+    border-radius: 20px;
+    border: 0;
+    
+    cursor: pointer;
+
+    outline: none;
+}
+
+#facebook-login-text {
+    position: relative;
+
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+    color: white;
+
+    left: 25px;
+}
+
+#facebook-login-icon {
+    position: relative;
+    
+    top: -8px;
+    left: -68px;
+
+    color: white;
+    font-size: 22px;
+}
+
+.login-footer-style {
+    position: relative;
+
+    top: -250px;
+}
+
+#login-footer-top {
+    position: relative;
+    top: 0px;
+    
+
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+}
+
+#login-footer-bottom {
+    position: relative;
+    top: 0px;
+
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 875px) {
+    #login-logo1 {
+        display: none;
+    }
+    
+    #login-logo2 {
+        top: 5px !important;
+        left: -20px !important;
+    }
+    
+    #login-logo3 {
+        display: none;
+    }
+    
+    .loginPage-link {
+        top: 0px !important;
+    
+    }
+    
+    
+    .login-form-style {
+        top: 0px !important;
+    }
+    
+    .firebase-login {
+        top: -50px !important;
+    }
+    
+    .login-footer-style {
+        top: 0px !important;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+/* LoginLogo */
+
+#login-logo1 {
+    position: relative;
+    top: -65px;
+    left: -150px;
+    
+    width: 400px;
+}
+
+#login-logo2 {
+    position: relative;
+    top: -170px;
+    left: -120px;
+    
+    width: 250px;
+}
+
+#login-logo3 {
+    position: relative;
+    top: -120px;
+    left: 60px;
+    
+    width: 200px;
+}
+
+.loginPage-link {
+    position: relative;
+
+    top: -175px;
+}
+
+
+.login-form-style {
+    position: relative;
+
+    top: -175px;
+    left: 0px;
+}
+
+#login-control {
+    position: relative;
+    top: -85px;
+}
+
+.firebase-login {
+    position: relative;
+    top: -225px;
+}
+
+.login-footer-style {
+    position: relative;
+
+    top: -175px;
+}
+
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1200px) {
+    #login-logo1 {
+        position: relative;
+        top: -65px;
+        left: -210px;
+        
+        width: 400px;
+    }
+    
+    #login-logo2 {
+        position: relative;
+        top: -170px;
+        left: -120px;
+        
+        width: 250px; 
+    }
+    
+    #login-logo3 {
+        position: relative;
+        top: -120px;
+        left: 115px;
+        
+        width: 200px;
+    }
+
+    .loginPage-link {
+        position: relative;
+    
+        top: -175px;
+    }
+
+    .login-form-style {
+        position: relative;
+    
+        top: -175px;
+        left: 0px;
+    }
+
+    .firebase-login {
+        position: relative;
+        top: -225px;
+    }
+
+    .login-footer-style {
+        position: relative;
+    
+        top: -175px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+    #login-logo1 {
+        position: relative;
+        top: -100px;
+        left: -175px;
+    
+    }
+    
+    #login-logo2 {
+        position: relative;
+        top: -240px;
+        left: -150px;
+        
+    }
+    
+    #login-logo3 {
+        position: relative;
+        top: -140px;
+        left: 60px;
+    
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1400px) {
+    #login-logo1 {
+        position: relative;
+        top: -100px;
+        left: -225px;
+    
+    }
+    
+    #login-logo2 {
+        position: relative;
+        top: -240px;
+        left: -150px;
+        
+    }
+    
+    #login-logo3 {
+        position: relative;
+        top: -140px;
+        left: 110px;
+    
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    #login-logo1 {
+        position: relative;
+        top: -100px;
+        left: -380px;
+    
+    }
+    
+    #login-logo2 {
+        position: relative;
+        top: -240px;
+        left: -150px;
+        
+    }
+    
+    #login-logo3 {
+        position: relative;
+        top: -140px;
+        left: 245px;
+    
+    }
+}
+

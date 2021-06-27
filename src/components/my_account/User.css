@@ -1,0 +1,120 @@
+.user_style {
+    position: relative;
+}
+
+.user_subheader {
+    position: relative;
+    text-align: center;
+    
+    width: 50%;
+    margin: 50px auto;
+
+}
+
+#user_subheader_text {
+    position: relative;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+
+    top: 10px;
+}
+
+/* ----- User Info -----*/
+
+.userInfo_style {
+    position: relative;
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+}
+
+.userInfo_details {
+    position: relative;
+    height: 40px;
+
+    margin-top: 10px;
+    background-color: white;
+    
+    border-radius: 7px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* name */
+#user_name_icon {
+    position: relative;
+    top: -10px;
+}
+
+#user_name_text {
+    position: relative;
+    top: -37px;
+    width: 400px;
+
+    outline: none;
+    border: none;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* phone */
+#user_phone_icon {
+    position: relative;
+    top: -10px;
+}
+
+#user_phone_text {
+    position: relative;
+    top: -32px;
+    width: 400px;
+
+    outline: none;
+    border: none;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* email */
+#user_email_icon {
+    position: relative;
+    top: -5px;
+}
+
+#user_email_text {
+    position: relative;
+    top: -33px;
+}
+
+
+/* update button */
+#user_update_button {
+    position: relative;
+    
+    top: 20px;
+    left: 0px;
+    
+    width: 500px;
+    height: 35px;
+    
+    border-radius: 10px;
+    border-style: none;
+    outline: none;
+    
+        
+    background-color: #00b7bd;
+    color: white;
+    
+    font-weight: 700;
+    
+    cursor: pointer;
+
+}
+

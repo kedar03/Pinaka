@@ -1,0 +1,65 @@
+.FP-Input-style {
+  position: relative;
+
+  top: -80px;
+}
+
+.Input-Email{
+    
+    width: 345px;
+    height: 60px;
+    
+
+
+    border-radius: 10px;
+    border-style: none;
+    outline: none;
+
+    text-align: center;
+
+    margin: 20px auto;
+  }
+  .Input-Email::placeholder {
+    /*color: #606060; */
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+
+    padding-left: 0px;
+  }
+  
+  .Change-Password-Button {
+     position: relative;
+
+     background-color: #00b7bd;
+     width: 350px;
+     height: 55px;
+     color: white;
+     text-align: center;
+     border-radius: 7px;
+     border: 0;
+     outline: none;
+     font-size: 17px;
+     font-weight: 600;
+
+
+     top: 40px;
+     cursor: pointer;
+  }
+  
+  
+  
+  .FP-Form {
+    position: relative;
+    text-align: center;
+    top: 170px;
+    
+  }
+  .FP-Bottom {
+    position: relative;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    
+    top: -35px;
+  }

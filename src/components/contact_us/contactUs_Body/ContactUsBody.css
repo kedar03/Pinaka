@@ -1,0 +1,75 @@
+.contact-body-style {
+    position: relative;
+}
+
+.contact-subheader-style {
+    position: relative;
+    text-align: center;
+    background-color: #bff4e2;
+
+    height: 50px;
+}
+
+.contact-subheader-text {
+    position: relative;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+
+    top: 15px;
+}
+
+.contact-care-style {
+    position: relative;
+    text-align: center;
+    margin: 20px auto;
+
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+}
+
+.contact-info-style {
+    position: relative;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.contact-icon-style {
+    position: relative;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#contact-info-top {
+    position: relative;
+
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}
+
+#contact-info-mid {
+    position: relative;
+
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+
+    color: #950f20;
+}
+
+#contact-info-bottom {
+    position: relative;
+
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+}
+
+#contact-icon {
+    position: relative;
+
+    width: 50px;
+}

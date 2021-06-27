@@ -1,0 +1,10 @@
+.main-body-style {
+    position: relative;
+    margin: 0 auto;
+
+    width: 1543px;
+
+    /* center the body  */
+    left: 50%;
+    margin-left: -771px;
+}
